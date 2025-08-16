@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "meditation-transcriber"
+version = "0.1.0"
+description = "GCP Cloud Function to transcribe WAV meditations and summarize using ADK"
+authors = [
+    { name="Jake Ferriero", email="you@example.com" }
+]
+dependencies = [
+    "google-cloud-speech",
+    "google-cloud-secret-manager",
+    "gspread",
+    "pydantic",
+    "google-ai-generativelanguage"
+]
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+where = ["."]
+
