@@ -1,5 +1,8 @@
-# Meditation Transcriber
+# WAV Summarizer
 
+## Disclaimer: 100% Vibe Coded
+
+## Overview
 Automatically transcribes WAV meditation files from a GCS bucket, summarizes themes and techniques, and suggests a title using Google ADK. Outputs are stored in a Google Sheet with separate columns.
 
 ## Features
